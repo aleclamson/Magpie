@@ -1,0 +1,1 @@
+When the input has two of the keywords that the code recognizes it prioritizes based on which one comes first in the code so if you said cat and mother it would respond to the mother it is before cat in the else if statement.

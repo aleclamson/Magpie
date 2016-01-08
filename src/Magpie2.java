@@ -44,7 +44,8 @@ public class Magpie2 {
 		} else if (statement.indexOf("padjen") >= 0
 				|| statement.indexOf("padjen") >= 0) {
 			response = "He sounds like a good teacher";
-				
+		} else if (statement.indexOf("could") >= 0){
+			response = "I am a computer i couldnt do that";
 		} else {
 			response = getRandomResponse();
 		}
@@ -70,6 +71,10 @@ public class Magpie2 {
 			response = "Do you really think so?";
 		} else if (whichResponse == 3) {
 			response = "You don't say.";
+		} else if (whichResponse == 4) {
+			response = "How do you know";
+		} else if (whichResponse == 5) {
+			response = "What are you talking about?";
 		}
 
 		return response;
